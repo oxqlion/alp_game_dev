@@ -66,7 +66,7 @@
       {
         "file": "assets/New image.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image.png\"}",
         "name": "New image",
         "smoothed": true,
         "userAdded": false
@@ -137,7 +137,7 @@
       {
         "file": "assets/New image3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image3.png\"}",
         "name": "New image3",
         "smoothed": true,
         "userAdded": false
@@ -152,9 +152,14 @@
   "objectsGroups": [],
   "variables": [
     {
-      "name": "generate_map",
-      "type": "boolean",
-      "value": true
+      "name": "FrontX",
+      "type": "number",
+      "value": -999
+    },
+    {
+      "name": "FrontPlayerID",
+      "type": "number",
+      "value": -1
     }
   ],
   "layouts": [
@@ -178,7 +183,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3111974942445218,
+        "zoomFactor": 0.5117784035210203,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -215,8 +220,8 @@
           "name": "orang",
           "persistentUuid": "f2e0a418-a7b3-4720-b1f8-d9b0e944330d",
           "width": 0,
-          "x": 80,
-          "y": 575,
+          "x": 65,
+          "y": 577,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -258,7 +263,7 @@
           "name": "orang",
           "persistentUuid": "fa8aadbb-dcb2-4709-9034-8f6afa9a04d4",
           "width": 0,
-          "x": 80,
+          "x": 162,
           "y": 576,
           "zOrder": 2,
           "numberProperties": [],
@@ -294,15 +299,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 720,
           "keepRatio": true,
           "layer": "",
           "name": "room_gen",
           "persistentUuid": "72d3d36b-3405-4299-93dd-48c1722aebc9",
-          "width": 0,
-          "x": 1280,
-          "y": 0,
+          "width": 8,
+          "x": 1223,
+          "y": 12,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [
@@ -322,6 +328,12 @@
           "variables": [],
           "effects": [],
           "behaviors": [
+            {
+              "name": "MultiplayerObject",
+              "type": "Multiplayer::MultiplayerObjectBehavior",
+              "playerNumber": 0,
+              "actionOnPlayerDisconnect": "DestroyObject"
+            },
             {
               "name": "Physics2",
               "type": "Physics2::Physics2Behavior",
@@ -514,13 +526,20 @@
           "type": "TileMap::SimpleTileMap",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "MultiplayerObject",
+              "type": "Multiplayer::MultiplayerObjectBehavior",
+              "playerNumber": 0,
+              "actionOnPlayerDisconnect": "DestroyObject"
+            }
+          ],
           "content": {
             "atlasImage": "New image3",
             "rowCount": 4,
             "columnCount": 4,
             "tileSize": 8,
-            "tilesWithHitBox": ""
+            "tilesWithHitBox": "0,4,5,2,6,3,7,8,12,9,13,10,14,11"
           }
         }
       ],
@@ -680,12 +699,14 @@
           "conditions": [
             {
               "type": {
-                "value": "PosX"
+                "value": "CollisionNP"
               },
               "parameters": [
                 "orang",
-                ">",
-                "room_gen.X() - 300"
+                "room_gen",
+                "room_gen",
+                "",
+                ""
               ]
             }
           ],
@@ -696,7 +717,7 @@
               },
               "parameters": [
                 "",
-                "\"room_gen_\" + ToString(RandomInRange(1, 3))",
+                "\"room_gen_\" + ToString(RandomInRange(1, 4))",
                 "room_gen.X()",
                 "room_gen.Y()",
                 "0"
@@ -711,47 +732,95 @@
                 ""
               ]
             }
-          ],
-          "events": [
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "generate_map",
-                    "True",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "generate_map",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "generate_map",
-                    "True",
-                    ""
-                  ]
-                }
+              "type": {
+                "value": "Multiplayer::IsPlayerHost"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "FrontX",
+                "=",
+                "-999"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "FrontPlayerID",
+                "=",
+                "-1"
               ]
             }
           ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "orang",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "orang",
+                ">",
+                "FrontX"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "FrontX",
+                "=",
+                "orang.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "FrontPlayerID",
+                "=",
+                "orang.ID"
+              ]
+            },
+            {
+              "type": {
+                "value": "Multiplayer::MultiplayerObjectBehavior::SetPlayerObjectOwnership"
+              },
+              "parameters": [
+                "room_gen",
+                "MultiplayerObject",
+                "=",
+                "orang.ID"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -9353,14 +9422,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 722,
           "keepRatio": true,
           "layer": "",
           "name": "room_gen",
           "persistentUuid": "1bba3ee6-9010-4afc-8402-e9f5ba9d486a",
-          "width": 0,
-          "x": 1280,
+          "width": 20,
+          "x": 981,
           "y": 0,
           "zOrder": 4,
           "numberProperties": [],
@@ -9425,7 +9495,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3010461197182469,
+        "zoomFactor": 0.5843784410740951,
         "windowMask": false,
         "selectedLayer": ""
       }
@@ -9518,6 +9588,27 @@
             }
           ],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "room_gen",
+          "persistentUuid": "95555bcf-2f9c-41bf-ac7d-67bd3a6fa4c3",
+          "width": 0,
+          "x": 1133,
+          "y": -33,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":8,\"tileHeight\":8,\"dimX\":1,\"dimY\":92,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]}]}"
+            }
+          ],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -9530,7 +9621,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.26364576737708045,
+        "zoomFactor": 0.5117784035210186,
         "windowMask": false,
         "selectedLayer": ""
       }
@@ -9668,6 +9759,27 @@
             }
           ],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "room_gen",
+          "persistentUuid": "c62d2d1b-f5de-488c-b271-8967c930f383",
+          "width": 0,
+          "x": 1098,
+          "y": -42,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":8,\"tileHeight\":8,\"dimX\":2,\"dimY\":99,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]]}]}"
+            }
+          ],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -9680,7 +9792,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2725359896772935,
+        "zoomFactor": 0.49508400737488983,
         "windowMask": false,
         "selectedLayer": ""
       }
@@ -9837,6 +9949,27 @@
             {
               "name": "tilemap",
               "value": "{\"tileWidth\":8,\"tileHeight\":8,\"dimX\":17,\"dimY\":20,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "room_gen",
+          "persistentUuid": "01515f53-fc4a-431c-a046-337061507c04",
+          "width": 0,
+          "x": 1166,
+          "y": -38,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":8,\"tileHeight\":8,\"dimX\":2,\"dimY\":96,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]]}]}"
             }
           ],
           "initialVariables": []
