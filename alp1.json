@@ -2423,6 +2423,26 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tile 29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile 29.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/3b7eebc19998f973156d25533e4acd5eec7cbb0940011c9f0fa92962975e3f24_Tile 29.png",
+          "name": "Tile 29.png"
+        }
       }
     ]
   },
@@ -2431,18 +2451,7 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [
-    {
-      "name": "FrontX",
-      "type": "number",
-      "value": -999
-    },
-    {
-      "name": "FrontPlayerID",
-      "type": "number",
-      "value": -1
-    }
-  ],
+  "variables": [],
   "layouts": [
     {
       "b": 209,
@@ -2466,7 +2475,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.3841198046306962,
+        "zoomFactor": 0.6040838749988929,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -2520,50 +2529,6 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "orang",
-          "persistentUuid": "fa8aadbb-dcb2-4709-9034-8f6afa9a04d4",
-          "width": 0,
-          "x": 162,
-          "y": 576,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "ID",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 97,
-          "keepRatio": true,
-          "layer": "",
-          "name": "lantai_tembok",
-          "persistentUuid": "2b75e1e0-e78d-4518-96ed-3cb917133990",
-          "width": 331,
-          "x": 512,
-          "y": 576,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [
-            {
-              "name": "tilemap",
-              "value": "{\"tileWidth\":8,\"tileHeight\":8,\"dimX\":15,\"dimY\":16,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]}]}"
-            }
-          ],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
           "layer": "Fixed",
           "name": "PowerUpText",
           "persistentUuid": "90689efc-901f-4a1c-b4e6-050fba035bcf",
@@ -2599,23 +2564,70 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 128,
+          "depth": 0,
+          "height": 79.65517241379314,
           "keepRatio": true,
           "layer": "",
-          "name": "lantai_tembok",
-          "persistentUuid": "00515d04-7afb-49ac-8747-ad9e00ade26e",
-          "width": 512,
-          "x": 768,
-          "y": 0,
-          "zOrder": 3,
+          "name": "Ninja_Boy",
+          "persistentUuid": "2ca2ce3b-602c-4854-b53f-40908e975dfb",
+          "width": 42,
+          "x": 130,
+          "y": 593,
+          "zOrder": 6,
           "numberProperties": [],
-          "stringProperties": [
-            {
-              "name": "tilemap",
-              "value": "{\"tileWidth\":8,\"tileHeight\":8,\"dimX\":15,\"dimY\":16,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]}]}"
-            }
-          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.19178082191783,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ninja_Girl",
+          "persistentUuid": "34a281d1-bcee-4a1b-99aa-09bd92ac9096",
+          "width": 48,
+          "x": 27,
+          "y": 48,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 95,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tile_29",
+          "persistentUuid": "16cff778-1860-4ee9-b865-faf619807e29",
+          "width": 194,
+          "x": 743,
+          "y": 576,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedY": true,
+          "height": 98,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tile_29",
+          "persistentUuid": "7f3fbe31-7257-4761-89f3-87cc06400767",
+          "width": 559,
+          "x": 721,
+          "y": 48,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
           "initialVariables": []
         },
         {
@@ -2625,43 +2637,11 @@
           "height": 720,
           "layer": "",
           "name": "room_spawn",
-          "persistentUuid": "5a15e4e5-357e-4161-8113-2cf22555ce4a",
+          "persistentUuid": "343a6ff4-e3d6-429b-9aa7-8f6e31556896",
           "width": 32,
-          "x": 1248,
+          "x": 1247,
           "y": 0,
-                 "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Ninja_Boy",
-          "persistentUuid": "2ca2ce3b-602c-4854-b53f-40908e975dfb",
-          "width": 0,
-          "x": 132,
-          "y": 560,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Ninja_Girl",
-          "persistentUuid": "34a281d1-bcee-4a1b-99aa-09bd92ac9096",
-          "width": 0,
-          "x": 124,
-          "y": 546,
-          "zOrder": 7,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3055,8 +3035,6 @@
         },
         {
           "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "room_spawn",
           "assetStoreId": "ecd3c240e55b7bf494a7e09508058ec8ba74ba4cb617b9cddf68e4d617a41a37",
           "name": "Ninja_Boy",
           "type": "Sprite",
@@ -3075,7 +3053,7 @@
               "type": "Physics2::Physics2Behavior",
               "bodyType": "Dynamic",
               "bullet": false,
-              "fixedRotation": false,
+              "fixedRotation": true,
               "canSleep": true,
               "shape": "Box",
               "shapeDimensionA": 0,
@@ -3101,7 +3079,7 @@
               "UpwardSpeed": 0.9,
               "DownwardSpeed": 0.9,
               "FollowOnX": true,
-              "FollowOnY": true,
+              "FollowOnY": false,
               "FollowFreeAreaLeft": 0,
               "FollowFreeAreaRight": 0,
               "FollowFreeAreaTop": 0,
@@ -6201,7 +6179,7 @@
               "type": "Physics2::Physics2Behavior",
               "bodyType": "Dynamic",
               "bullet": false,
-              "fixedRotation": false,
+              "fixedRotation": true,
               "canSleep": true,
               "shape": "Box",
               "shapeDimensionA": 0,
@@ -6227,7 +6205,7 @@
               "UpwardSpeed": 0.9,
               "DownwardSpeed": 0.9,
               "FollowOnX": true,
-              "FollowOnY": true,
+              "FollowOnY": false,
               "FollowFreeAreaLeft": 0,
               "FollowFreeAreaRight": 0,
               "FollowFreeAreaTop": 0,
@@ -9622,6 +9600,164 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "room_spawn",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "MultiplayerObject",
+              "type": "Multiplayer::MultiplayerObjectBehavior",
+              "playerNumber": 0,
+              "actionOnPlayerDisconnect": "DestroyObject"
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 5,
+                            "y": 0
+                          },
+                          {
+                            "x": 5,
+                            "y": 62
+                          },
+                          {
+                            "x": 0,
+                            "y": 62
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "b641b390640b528f6dbf7c4706c1035bb636ef29ac80154ca602ee08336cb0d7",
+          "name": "Tile_29",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "MultiplayerObject",
+              "type": "Multiplayer::MultiplayerObjectBehavior",
+              "playerNumber": 0,
+              "actionOnPlayerDisconnect": "DestroyObject"
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Tile 29.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 24
+                          },
+                          {
+                            "x": 0,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -9649,7 +9785,13 @@
             "objectName": "room_gen"
           },
           {
+            "objectName": ""
+          },
+          {
             "objectName": "room_spawn"
+          },
+          {
+            "objectName": "Tile_29"
           }
         ]
       },
@@ -9678,113 +9820,106 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Ninja_Boy",
+                "SmoothCamera",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Ninja_Girl",
+                "SmoothCamera",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Ninja_Boy",
+                "Animation",
+                "=",
+                "\"Run\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Ninja_Girl",
+                "Animation",
+                "=",
+                "\"Run\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Ninja_Girl",
+                ">=",
+                "Ninja_Boy.X()"
+              ]
             }
           ],
-          "events": [
+          "actions": [
             {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Ninja_Boy",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Multiplayer::MultiplayerObjectBehavior::IsObjectOwnedByCurrentPlayer"
-                  },
-                  "parameters": [
-                    "Ninja_Boy",
-                    "MultiplayerObject"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Ninja_Boy",
-                    "SmoothCamera",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Multiplayer::MultiplayerObjectBehavior::EnableBehaviorSynchronization"
-                  },
-                  "parameters": [
-                    "Ninja_Boy",
-                    "MultiplayerObject",
-                    "SmoothCamera",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CentreCamera"
-                  },
-                  "parameters": [
-                    "",
-                    "Ninja_Boy",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "Ninja_Boy",
+                "=",
+                "Ninja_Girl.X()",
+                "",
+                ""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Ninja_Girl",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Multiplayer::MultiplayerObjectBehavior::IsObjectOwnedByCurrentPlayer"
-                  },
-                  "parameters": [
-                    "Ninja_Girl",
-                    "MultiplayerObject"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Ninja_Girl",
-                    "SmoothCamera",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Multiplayer::MultiplayerObjectBehavior::EnableBehaviorSynchronization"
-                  },
-                  "parameters": [
-                    "Ninja_Girl",
-                    "MultiplayerObject",
-                    "SmoothCamera",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CentreCamera"
-                  },
-                  "parameters": [
-                    "",
-                    "Ninja_Girl",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Ninja_Boy",
+                ">=",
+                "Ninja_Girl.X()"
               ]
-            },
+            }
+          ],
+          "actions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "Ninja_Boy",
+                "=",
+                "Ninja_Boy.X()",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -9813,6 +9948,28 @@
                 "=",
                 "200"
               ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "room_spawn",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "room_gen",
+                "Opacity",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -9825,7 +9982,7 @@
               },
               "parameters": [
                 "",
-                "\"Space\""
+                "\"a\""
               ]
             }
           ],
@@ -9840,18 +9997,81 @@
                 "=",
                 "Ninja_Boy.Physics2::GravityScale() * -1"
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "Ninja_Boy",
-                "Physics2",
-                "=",
-                "100"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics2::GravityScale"
+                  },
+                  "parameters": [
+                    "Ninja_Boy",
+                    "Physics2",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipY"
+                  },
+                  "parameters": [
+                    "Ninja_Boy",
+                    "Flippable",
+                    "no"
+                  ]
+                }
               ]
             },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics2::GravityScale"
+                  },
+                  "parameters": [
+                    "Ninja_Boy",
+                    "Physics2",
+                    "<",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipY"
+                  },
+                  "parameters": [
+                    "Ninja_Boy",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"l\""
+              ]
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "Physics2::GravityScale"
@@ -9862,16 +10082,63 @@
                 "=",
                 "Ninja_Girl.Physics2::GravityScale() * -1"
               ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics2::GravityScale"
+                  },
+                  "parameters": [
+                    "Ninja_Girl",
+                    "Physics2",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipY"
+                  },
+                  "parameters": [
+                    "Ninja_Girl",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ]
             },
             {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "Ninja_Girl",
-                "Physics2",
-                "=",
-                "100"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics2::GravityScale"
+                  },
+                  "parameters": [
+                    "Ninja_Girl",
+                    "Physics2",
+                    "<",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipY"
+                  },
+                  "parameters": [
+                    "Ninja_Girl",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
               ]
             }
           ]
@@ -9890,6 +10157,22 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Ninja_Boy",
+                ">=",
+                "Ninja_Girl.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -9899,9 +10182,9 @@
               },
               "parameters": [
                 "",
-                "\"room_gen_\" + ToString(RandomInRange(1, 4))",
-                "room_gen.X()",
-                "room_gen.Y()",
+                "\"room_gen_\" + ToString(RandomInRange(1, 10))",
+                "room_spawn.X()",
+                "room_spawn.Y()",
                 "0"
               ]
             },
@@ -9913,6 +10196,15 @@
                 "room_gen",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "room_spawn",
+                ""
+              ]
             }
           ]
         },
@@ -9929,6 +10221,16 @@
                 "room_gen",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Ninja_Girl",
+                ">=",
+                "Ninja_Boy.X()"
               ]
             }
           ],
@@ -9962,68 +10264,6 @@
                 "room_spawn",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "Multiplayer::MultiplayerObjectBehavior::TakeObjectOwnership"
-              },
-              "parameters": [
-                "room_gen",
-                "MultiplayerObject"
-              ]
-            },
-            {
-              "type": {
-                "value": "Multiplayer::MultiplayerObjectBehavior::TakeObjectOwnership"
-              },
-              "parameters": [
-                "room_spawn",
-                "MultiplayerObject"
-              ]
-            },
-            {
-              "type": {
-                "value": "Multiplayer::MultiplayerObjectBehavior::TakeObjectOwnership"
-              },
-              "parameters": [
-                "lantai_tembok",
-                "MultiplayerObject"
-              ]
-            },
-            {
-              "type": {
-                "value": "Multiplayer::MultiplayerObjectBehavior::TakeObjectOwnership"
-              },
-              "parameters": [
-                "orang",
-                "MultiplayerObject"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "FrontX",
-                "=",
-                "-999"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "FrontPlayerID",
-                "=",
-                "-1"
-              ]
             }
           ]
         },
@@ -10046,12 +10286,6 @@
                   "parameters": [
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "Multiplayer::IsPlayerHost"
-                  },
-                  "parameters": []
                 },
                 {
                   "type": {
@@ -10093,24 +10327,6 @@
                     "Text",
                     "=",
                     "\"asdasdasdasdasd\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Multiplayer::MultiplayerObjectBehavior::TakeObjectOwnership"
-                  },
-                  "parameters": [
-                    "PowerUp_Item",
-                    "MultiplayerObject"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Multiplayer::MultiplayerObjectBehavior::TakeObjectOwnership"
-                  },
-                  "parameters": [
-                    "PowerUpText",
-                    "MultiplayerObject"
                   ]
                 }
               ],
@@ -10738,27 +10954,6 @@
                 "BlackDecoratedButton",
                 ""
               ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Multiplayer::OpenGameLobbies"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Multiplayer::HasLobbyGameJustStarted"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -19974,10 +20169,10 @@
           "height": 720,
           "layer": "",
           "name": "room_spawn",
-          "persistentUuid": "a85a5c66-1661-4f09-82c8-0b0aa41f5dac",
+          "persistentUuid": "7af9cf58-f215-43f4-b1a8-6a08f6c32797",
           "width": 32,
           "x": 1248,
-          "y": 0,
+          "y": 2,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
