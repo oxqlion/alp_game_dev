@@ -3863,6 +3863,130 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/57f4dbf3a079de77c8db891437a5f7292509a665d0256cc5a5864e46ee36833b_Question Key.png",
           "name": "Question Key.png"
         }
+      },
+      {
+        "file": "assets/Inventory Slot Empty2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Inventory Slot Empty2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/f305fdf036385c51430f108916e26673103cf13a716df6d34e7aabafe2d77b36_Inventory Slot Empty2.png",
+          "name": "Inventory Slot Empty2.png"
+        }
+      },
+      {
+        "file": "assets/Pause.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pause.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/3665e9e3cbbae21705cb283d230ed1ac7f5ee0e178a0c5371fb98e51448c9fc0_Pause.png",
+          "name": "Pause.png"
+        }
+      },
+      {
+        "file": "assets/Menu Popup Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Menu Popup Background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/UI/f8a4d79730d5c85f35ebf6e58016946cade303bed9fcb50e5b8e1f24a7386dbb_Menu Popup Background.png",
+          "name": "Menu Popup Background.png"
+        }
+      },
+      {
+        "file": "Idle__006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle__006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Idle__006(1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle__006(1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "freezing.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "running-64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running-64.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "freezing2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezing2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Royalty-Free Vectors and Stock Vector Images_ 75+ Million Graphic Assets.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Royalty-Free Vectors and Stock Vector Images_ 75+ Million Graphic Assets.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Royalty-Free_Vectors_and_Stock_Vector_Images__75+_Million_Graphic_Assets-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Royalty-Free_Vectors_and_Stock_Vector_Images__75+_Million_Graphic_Assets-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "link-64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "link-64.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "running-63.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running-63.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "link-63.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "link-63.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Royalty-Free_Vectors_and_Stock_Vector_Images__75+_Million_Graphic_Assets-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Royalty-Free_Vectors_and_Stock_Vector_Images__75+_Million_Graphic_Assets-removebg-preview2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -3895,7 +4019,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6040838749989004,
+        "zoomFactor": 0.5468750000000152,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -3911,7 +4035,7 @@
           "name": "room_gen",
           "persistentUuid": "6d6764f9-b962-4d87-b9c8-ec78644fdf41",
           "width": 15,
-          "x": 216,
+          "x": 154,
           "y": 1,
           "zOrder": 4,
           "numberProperties": [],
@@ -3933,7 +4057,7 @@
           "name": "Ninja_Boy",
           "persistentUuid": "2ca2ce3b-602c-4854-b53f-40908e975dfb",
           "width": 42,
-          "x": 130,
+          "x": 68,
           "y": 593,
           "zOrder": 6,
           "numberProperties": [],
@@ -3950,7 +4074,7 @@
           "name": "Ninja_Girl",
           "persistentUuid": "34a281d1-bcee-4a1b-99aa-09bd92ac9096",
           "width": 48,
-          "x": 71,
+          "x": 9,
           "y": 52,
           "zOrder": 7,
           "numberProperties": [],
@@ -3966,41 +4090,9 @@
           "name": "room_spawn",
           "persistentUuid": "343a6ff4-e3d6-429b-9aa7-8f6e31556896",
           "width": 32,
-          "x": 845,
+          "x": 783,
           "y": 0,
           "zOrder": 20,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Fixed",
-          "name": "PowerUpText_NinjaGirl",
-          "persistentUuid": "98792ace-fd17-44c1-a36c-0c0c8f283e9c",
-          "width": 0,
-          "x": 595,
-          "y": 397,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Fixed",
-          "name": "PowerUpText_NinjaBoy",
-          "persistentUuid": "68ed92b2-7d08-4496-bed0-7dc340d448e5",
-          "width": 0,
-          "x": 595,
-          "y": 336,
-          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4015,7 +4107,7 @@
           "name": "PowerUp_Item",
           "persistentUuid": "d45cab6e-9781-4798-acb3-f8f006aa933d",
           "width": 54,
-          "x": 707,
+          "x": 645,
           "y": 627,
           "zOrder": 12,
           "numberProperties": [],
@@ -4032,8 +4124,8 @@
           "name": "ShadowOni",
           "persistentUuid": "9c257982-f0c9-4902-9ce1-d651327c180d",
           "width": 271,
-          "x": 38,
-          "y": 267,
+          "x": 37,
+          "y": 253,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -4049,7 +4141,7 @@
           "name": "bg1",
           "persistentUuid": "8604e320-6d94-4328-ae4c-6ab1b379bf0b",
           "width": 1282,
-          "x": -433,
+          "x": -495,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -4066,7 +4158,7 @@
           "name": "Fire_Burning",
           "persistentUuid": "4ee58c45-7fdd-46d1-a6c4-4e59b563d5d9",
           "width": 50,
-          "x": 355,
+          "x": 293,
           "y": 541,
           "zOrder": 15,
           "numberProperties": [],
@@ -4083,127 +4175,8 @@
           "name": "sunburn",
           "persistentUuid": "4845dae3-4553-4056-93ab-bc0a411bdb44",
           "width": 200,
-          "x": -94,
-          "y": -25,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 200,
-          "keepRatio": true,
-          "layer": "Fixed",
-          "name": "sunburn",
-          "persistentUuid": "fdc509a5-472f-44fc-b095-235ef3241aa9",
-          "width": 200,
-          "x": -95,
-          "y": 58,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 200,
-          "keepRatio": true,
-          "layer": "Fixed",
-          "name": "sunburn",
-          "persistentUuid": "930222bf-026b-4090-88d4-49ac7fde7d69",
-          "width": 200,
-          "x": -96,
-          "y": 146,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 200,
-          "keepRatio": true,
-          "layer": "Fixed",
-          "name": "sunburn",
-          "persistentUuid": "96401fac-12b0-4631-8c2b-c7462e75693f",
-          "width": 200,
-          "x": -93,
-          "y": 228,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 200,
-          "keepRatio": true,
-          "layer": "Fixed",
-          "name": "sunburn",
-          "persistentUuid": "e25c8fcf-46fd-4548-a736-f0f5df2779e3",
-          "width": 200,
-          "x": -94,
-          "y": 305,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 200,
-          "keepRatio": true,
-          "layer": "Fixed",
-          "name": "sunburn",
-          "persistentUuid": "8df6469f-abfd-4d4e-bf83-fb2554f343a9",
-          "width": 200,
-          "x": -95,
-          "y": 393,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 200,
-          "keepRatio": true,
-          "layer": "Fixed",
-          "name": "sunburn",
-          "persistentUuid": "369b0f82-78ed-4515-9305-ac28fdc689cf",
-          "width": 200,
-          "x": -99,
-          "y": 467,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 200,
-          "keepRatio": true,
-          "layer": "Fixed",
-          "name": "sunburn",
-          "persistentUuid": "2904dd33-76f1-4d8d-9c27-b9e60de70073",
-          "width": 200,
-          "x": -102,
-          "y": 545,
+          "x": -92,
+          "y": -29,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -4228,23 +4201,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 200,
-          "keepRatio": true,
-          "layer": "Fixed",
-          "name": "sunburn",
-          "persistentUuid": "840249a7-ad33-410a-933e-b989dc66ebec",
-          "width": 200,
-          "x": -100,
-          "y": 623,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -4252,7 +4208,7 @@
           "name": "ground",
           "persistentUuid": "ada22b62-c464-48e3-b701-0f1597f1e874",
           "width": 0,
-          "x": -433,
+          "x": -495,
           "y": 0,
           "zOrder": 17,
           "numberProperties": [],
@@ -4273,7 +4229,7 @@
           "name": "ground",
           "persistentUuid": "e5095088-e88b-4761-99c2-2ff1a5f07af9",
           "width": 0,
-          "x": -433,
+          "x": -495,
           "y": 696,
           "zOrder": 18,
           "numberProperties": [],
@@ -4295,7 +4251,7 @@
           "name": "Tile_29",
           "persistentUuid": "39be294d-d573-4b30-bc2c-78c8ee74aaf9",
           "width": 301,
-          "x": 302,
+          "x": 240,
           "y": 591,
           "zOrder": 21,
           "numberProperties": [],
@@ -4313,9 +4269,431 @@
           "name": "Tile_29",
           "persistentUuid": "78f0d84f-eb06-43b9-9792-417db14ff27d",
           "width": 227,
-          "x": 533,
+          "x": 471,
           "y": 22,
           "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 140,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "Inventory_Slot_Empty2",
+          "persistentUuid": "6730d44d-72f4-4e38-8654-42a05d5d7ae0",
+          "width": 140,
+          "x": 45,
+          "y": 570,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 140,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "Inventory_Slot_Empty2",
+          "persistentUuid": "b5730d46-3bc7-49e5-a8ce-fd16fc802bad",
+          "width": 140,
+          "x": 1104,
+          "y": 570,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 78.94736842105263,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "Pause",
+          "persistentUuid": "8b25ec62-70e1-4285-bf34-1150e071b82e",
+          "width": 72,
+          "x": 1168,
+          "y": 26,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 297,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "Menu_Popup_Background",
+          "persistentUuid": "dfc26a2f-b934-4bc4-8254-1cb2f10041cd",
+          "width": 446,
+          "x": 409,
+          "y": 232,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "Menu1",
+          "persistentUuid": "227e45ca-ea8b-4a21-a04c-545aa9e79439",
+          "width": 0,
+          "x": 596,
+          "y": 304,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "Menu2",
+          "persistentUuid": "e8f7b827-9be3-4bac-9c28-d43aab471670",
+          "width": 0,
+          "x": 602,
+          "y": 371,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "Menu3",
+          "persistentUuid": "5da33fde-739a-4455-bcee-7a84f4aa1131",
+          "width": 0,
+          "x": 584,
+          "y": 441,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 200,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "sunburn",
+          "persistentUuid": "e77532f2-73e2-448b-b106-3b3e92360b28",
+          "width": 200,
+          "x": -100,
+          "y": 45,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 200,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "sunburn",
+          "persistentUuid": "7725a9ff-1f5a-4a1c-a1b7-8babba2e93a2",
+          "width": 200,
+          "x": -95,
+          "y": 126,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 200,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "sunburn",
+          "persistentUuid": "a5d9b5c5-2454-451a-bc52-2a6dbc58fc67",
+          "width": 200,
+          "x": -94,
+          "y": 211,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 200,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "sunburn",
+          "persistentUuid": "81bacada-ffbb-46e4-b57d-22df52e3e429",
+          "width": 200,
+          "x": -102,
+          "y": 289,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 200,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "sunburn",
+          "persistentUuid": "7d95657b-56fa-4180-b070-a276aecfebca",
+          "width": 200,
+          "x": -96,
+          "y": 373,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 200,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "sunburn",
+          "persistentUuid": "703ff379-f4fc-4c9b-9b6c-c996c48c6813",
+          "width": 200,
+          "x": -98,
+          "y": 458,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 200,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "sunburn",
+          "persistentUuid": "5fa52599-fff4-49f6-8a6b-175551b4812d",
+          "width": 200,
+          "x": -96,
+          "y": 532,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 200,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "sunburn",
+          "persistentUuid": "587206cb-aa39-4d1d-a50c-5b6aa38d7ffc",
+          "width": 200,
+          "x": -99,
+          "y": 616,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48.44827586206897,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "GirlProfile",
+          "persistentUuid": "78810557-78f9-4f3d-a0b3-4619cb02b1c7",
+          "width": 50,
+          "x": 1107,
+          "y": 570,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 50,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "BoyProfile",
+          "persistentUuid": "c60ef174-f207-4ef8-83c8-26866050bc8b",
+          "width": 50,
+          "x": 47,
+          "y": 572,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2.307692307692308,
+          "height": 60,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "freeze_boy",
+          "persistentUuid": "ad1ec66e-030c-4a62-b14f-58a422545222",
+          "width": 60,
+          "x": 86,
+          "y": 612,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 60,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "flicker_boy",
+          "persistentUuid": "cbbe5f76-a291-4dda-8ac9-c29a1bce4d3b",
+          "width": 60,
+          "x": 87,
+          "y": 609,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "shield_boy",
+          "persistentUuid": "1afd04f6-50c4-402d-9ce9-14ba58f37a7a",
+          "width": 100,
+          "x": 66,
+          "y": 591,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 50,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "link_boy",
+          "persistentUuid": "dae875ee-31be-4288-955e-530c73afce57",
+          "width": 50,
+          "x": 91,
+          "y": 614,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "shield_girl",
+          "persistentUuid": "299c07d5-18c8-4bc7-9ea4-e8005222a347",
+          "width": 100,
+          "x": 1124,
+          "y": 591,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 60,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "flicker_girl",
+          "persistentUuid": "92791c82-1076-45ee-bf64-f9bac8a8b903",
+          "width": 60,
+          "x": 1144,
+          "y": 610,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 50,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "link_girl",
+          "persistentUuid": "542d1a49-03c0-43a6-a252-ecb395919e19",
+          "width": 50,
+          "x": 1150,
+          "y": 616,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 60,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "freeze_girl",
+          "persistentUuid": "9c052ce8-f032-4298-8e80-6e21f05bf73c",
+          "width": 60,
+          "x": 1145,
+          "y": 610,
+          "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18314,6 +18692,915 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "2edc83bc43d0c138874979a18b9bb7540e65cb3ae76c540170dd0478073c20e4",
+          "name": "Inventory_Slot_Empty2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Inventory Slot Empty2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 5
+                          },
+                          {
+                            "x": 27,
+                            "y": 5
+                          },
+                          {
+                            "x": 27,
+                            "y": 27
+                          },
+                          {
+                            "x": 5,
+                            "y": 27
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "8f80aa8f2dd77a1796ba5eb80e063d77ea837fe8dfc4e0dc5c262a03ecdc5c32",
+          "name": "Pause",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pause.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 114,
+                            "y": 0
+                          },
+                          {
+                            "x": 114,
+                            "y": 125
+                          },
+                          {
+                            "x": 0,
+                            "y": 125
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "e7b765db6c7009558318e8ba11f6d705387517b0fa8d16ba62833933b829f3d1",
+          "name": "Menu_Popup_Background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Menu Popup Background.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 3
+                          },
+                          {
+                            "x": 146,
+                            "y": 3
+                          },
+                          {
+                            "x": 146,
+                            "y": 96
+                          },
+                          {
+                            "x": 4,
+                            "y": 96
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Menu1",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Continue",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Continue",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Menu2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Restart",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Restart",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Menu3",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Main Menu",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Main Menu",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BoyProfile",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle__006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 3
+                          },
+                          {
+                            "x": 217,
+                            "y": 3
+                          },
+                          {
+                            "x": 217,
+                            "y": 232
+                          },
+                          {
+                            "x": 5,
+                            "y": 232
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "GirlProfile",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle__006(1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 4
+                          },
+                          {
+                            "x": 288,
+                            "y": 4
+                          },
+                          {
+                            "x": 288,
+                            "y": 281
+                          },
+                          {
+                            "x": 6,
+                            "y": 281
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "freeze_boy",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "freezing.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 488,
+                            "y": 0
+                          },
+                          {
+                            "x": 488,
+                            "y": 512
+                          },
+                          {
+                            "x": 24,
+                            "y": 512
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "flicker_boy",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "running-64.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 64
+                          },
+                          {
+                            "x": 2,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "freeze_girl",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "freezing2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 488,
+                            "y": 0
+                          },
+                          {
+                            "x": 488,
+                            "y": 512
+                          },
+                          {
+                            "x": 24,
+                            "y": 512
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "shield_boy",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Royalty-Free_Vectors_and_Stock_Vector_Images__75+_Million_Graphic_Assets-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 121,
+                            "y": 94
+                          },
+                          {
+                            "x": 329,
+                            "y": 94
+                          },
+                          {
+                            "x": 329,
+                            "y": 356
+                          },
+                          {
+                            "x": 121,
+                            "y": 356
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "link_boy",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "link-64.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "flicker_girl",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "running-63.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 64
+                          },
+                          {
+                            "x": 2,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "link_girl",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "link-63.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "shield_girl",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Royalty-Free_Vectors_and_Stock_Vector_Images__75+_Million_Graphic_Assets-removebg-preview2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 121,
+                            "y": 94
+                          },
+                          {
+                            "x": 329,
+                            "y": 94
+                          },
+                          {
+                            "x": 329,
+                            "y": 356
+                          },
+                          {
+                            "x": 121,
+                            "y": 356
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -18396,6 +19683,12 @@
             "folderName": "Characters",
             "children": [
               {
+                "objectName": "GirlProfile"
+              },
+              {
+                "objectName": "BoyProfile"
+              },
+              {
                 "objectName": "ShadowOni"
               },
               {
@@ -18409,6 +19702,24 @@
           {
             "folderName": "Particles",
             "children": [
+              {
+                "objectName": "Pause"
+              },
+              {
+                "objectName": "Menu_Popup_Background"
+              },
+              {
+                "objectName": "Menu2"
+              },
+              {
+                "objectName": "Menu3"
+              },
+              {
+                "objectName": "Menu1"
+              },
+              {
+                "objectName": "Inventory_Slot_Empty2"
+              },
               {
                 "objectName": "PowerUpText_NinjaGirl"
               },
@@ -18429,6 +19740,30 @@
               },
               {
                 "objectName": "Fire_Burning"
+              },
+              {
+                "objectName": "freeze_boy"
+              },
+              {
+                "objectName": "flicker_boy"
+              },
+              {
+                "objectName": "freeze_girl"
+              },
+              {
+                "objectName": "shield_boy"
+              },
+              {
+                "objectName": "flicker_girl"
+              },
+              {
+                "objectName": "shield_girl"
+              },
+              {
+                "objectName": "link_girl"
+              },
+              {
+                "objectName": "link_boy"
               }
             ]
           }
@@ -18746,6 +20081,344 @@
                     "HealthPoint",
                     "<=",
                     "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Lobby Scene\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Pause"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Menu_Popup_Background",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Menu1",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Menu2",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Menu3",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Pause",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Menu_Popup_Background",
+                    "Opacity",
+                    "=",
+                    "255"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Menu1",
+                    "Opacity",
+                    "=",
+                    "255"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Menu2",
+                    "Opacity",
+                    "=",
+                    "255"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Menu3",
+                    "Opacity",
+                    "=",
+                    "255"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Menu1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::Value"
+                  },
+                  "parameters": [
+                    "Menu1",
+                    "Opacity",
+                    "=",
+                    "255"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Menu_Popup_Background",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Menu1",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Menu2",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Menu3",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Menu2",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::Value"
+                  },
+                  "parameters": [
+                    "Menu2",
+                    "Opacity",
+                    "=",
+                    "255"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Game Scene\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Menu3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::Value"
+                  },
+                  "parameters": [
+                    "Menu3",
+                    "Opacity",
+                    "=",
+                    "255"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
                   ]
                 }
               ],
@@ -19717,7 +21390,7 @@
                   "parameters": [
                     "ShadowOni",
                     "FireBullet",
-                    "ShadowOni.X() + 200",
+                    "ShadowOni.X() + 150",
                     "ShadowOni.Y() + 100",
                     "Bullet",
                     "Ninja_Boy.X()",
@@ -19733,8 +21406,8 @@
                   "parameters": [
                     "ShadowOni",
                     "FireBullet",
-                    "ShadowOni.X() + 200",
-                    "ShadowOni.Y() + 100",
+                    "ShadowOni.X() + 150",
+                    "ShadowOni.Y() + 50",
                     "Bullet",
                     "Ninja_Girl.X()",
                     "Ninja_Girl.Y()",
@@ -19768,16 +21441,107 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Spawn Random Power Up Item"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "freeze_boy",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "flicker_boy",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "shield_boy",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "link_boy",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "freeze_girl",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "flicker_girl",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "shield_girl",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "link_girl",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",
@@ -19792,7 +21556,7 @@
                     "PowerUp_Item",
                     "typeIndex",
                     "=",
-                    "3"
+                    "RandomInRange(1,4)"
                   ]
                 }
               ],
@@ -19820,17 +21584,6 @@
                       "parameters": [
                         "PowerUp_Item",
                         "type",
-                        "=",
-                        "\"freeze\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "PowerUpText_NinjaBoy",
-                        "Text",
                         "=",
                         "\"freeze\""
                       ]
@@ -19863,17 +21616,6 @@
                         "=",
                         "\"flicker\""
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "PowerUpText_NinjaBoy",
-                        "Text",
-                        "=",
-                        "\"flicker\""
-                      ]
                     }
                   ]
                 },
@@ -19903,17 +21645,6 @@
                         "=",
                         "\"shield\""
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "PowerUpText_NinjaBoy",
-                        "Text",
-                        "=",
-                        "\"shield\""
-                      ]
                     }
                   ]
                 },
@@ -19940,17 +21671,6 @@
                       "parameters": [
                         "PowerUp_Item",
                         "type",
-                        "=",
-                        "\"link\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "PowerUpText_NinjaBoy",
-                        "Text",
                         "=",
                         "\"link\""
                       ]
@@ -20019,6 +21739,256 @@
                     ""
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "powerUpType",
+                        "=",
+                        "\"freeze\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "freeze_boy",
+                        "Opacity",
+                        "=",
+                        "255"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "flicker_boy",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "shield_boy",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "link_boy",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "powerUpType",
+                        "=",
+                        "\"flicker\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "freeze_boy",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "flicker_boy",
+                        "Opacity",
+                        "=",
+                        "255"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "shield_boy",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "link_boy",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "powerUpType",
+                        "=",
+                        "\"shield\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "freeze_boy",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "flicker_boy",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "shield_boy",
+                        "Opacity",
+                        "=",
+                        "255"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "link_boy",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "powerUpType",
+                        "=",
+                        "\"link\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "freeze_boy",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "flicker_boy",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "shield_boy",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "link_boy",
+                        "Opacity",
+                        "=",
+                        "255"
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -20067,6 +22037,256 @@
                   "parameters": [
                     "PowerUp_Item",
                     ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "powerUpType",
+                        "=",
+                        "\"freeze\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "freeze_girl",
+                        "Opacity",
+                        "=",
+                        "255"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "flicker_girl",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "shield_girl",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "link_girl",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "powerUpType",
+                        "=",
+                        "\"flicker\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "freeze_girl",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "flicker_girl",
+                        "Opacity",
+                        "=",
+                        "255"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "shield_girl",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "link_girl",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "powerUpType",
+                        "=",
+                        "\"shield\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "freeze_girl",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "flicker_girl",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "shield_girl",
+                        "Opacity",
+                        "=",
+                        "255"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "link_girl",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "powerUpType",
+                        "=",
+                        "\"link\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "freeze_girl",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "flicker_girl",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "shield_girl",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "link_girl",
+                        "Opacity",
+                        "=",
+                        "255"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -20226,6 +22446,17 @@
                         "Ninja_Girl",
                         "\"80;227;194\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "freeze_boy",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
                     }
                   ]
                 },
@@ -20380,6 +22611,17 @@
                       "parameters": [
                         "Ninja_Boy",
                         "\"80;227;194\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "freeze_girl",
+                        "Opacity",
+                        "=",
+                        "0"
                       ]
                     }
                   ]
@@ -20551,6 +22793,17 @@
                         "=",
                         "\"Attack\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "flicker_boy",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
                     }
                   ]
                 },
@@ -20700,6 +22953,17 @@
                         "Animation",
                         "=",
                         "\"Attack\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "flicker_girl",
+                        "Opacity",
+                        "=",
+                        "0"
                       ]
                     }
                   ]
@@ -20852,6 +23116,17 @@
                         "Ninja_Boy",
                         "\"155;155;155\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "shield_boy",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
                     }
                   ]
                 },
@@ -20990,6 +23265,17 @@
                       "parameters": [
                         "Ninja_Girl",
                         "\"155;155;155\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "shield_girl",
+                        "Opacity",
+                        "=",
+                        "0"
                       ]
                     }
                   ]
@@ -21142,6 +23428,17 @@
                         "True",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "link_boy",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
                     }
                   ]
                 },
@@ -21280,6 +23577,17 @@
                         "LinkActive",
                         "True",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "link_girl",
+                        "Opacity",
+                        "=",
+                        "0"
                       ]
                     }
                   ]
