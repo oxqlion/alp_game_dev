@@ -3987,6 +3987,29 @@
         "name": "Royalty-Free_Vectors_and_Stock_Vector_Images__75+_Million_Graphic_Assets-removebg-preview2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "PixelOperator8-Bold.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PixelOperator8-Bold.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "PixelOperator8-Bold.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "PixelOperator8-Bold.fnt",
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -3995,7 +4018,18 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "BoyPoints",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "GirlPoints",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -4019,7 +4053,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.36732575450589255,
+        "zoomFactor": 0.47893418845353997,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -4694,6 +4728,141 @@
           "x": 1145,
           "y": 610,
           "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "NewBitmapText2",
+          "persistentUuid": "37496223-9d5b-48f2-b191-0d118ae00466",
+          "width": 320,
+          "x": 171,
+          "y": 668,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "NewBitmapText3",
+          "persistentUuid": "2350d11b-2f82-4b1c-9d4b-863d8f134f0f",
+          "width": 0,
+          "x": 808,
+          "y": 669,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "overlay",
+          "opacity": 0,
+          "persistentUuid": "5c28a6af-0374-457c-922e-9efaf3572647",
+          "width": 0,
+          "x": -1,
+          "y": 0,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "NewBitmapText4",
+          "opacity": 0,
+          "persistentUuid": "86db572d-aa3b-4b75-8ee4-a123e2fe0827",
+          "width": 0,
+          "x": 450,
+          "y": 339,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "NewBitmapText5",
+          "opacity": 0,
+          "persistentUuid": "7715017c-f0b0-4973-9cda-80ff943532c8",
+          "width": 0,
+          "x": 459,
+          "y": 335,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "NewBitmapText6",
+          "opacity": 0,
+          "persistentUuid": "95f7299c-8426-4bca-ab8a-4da9e7c137c0",
+          "width": 0,
+          "x": 478,
+          "y": 404,
+          "zOrder": 104,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "NewBitmapText7",
+          "opacity": 0,
+          "persistentUuid": "de8c5024-3da9-4609-87df-262a523787eb",
+          "width": 0,
+          "x": 434,
+          "y": 375,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fixed",
+          "name": "NewBitmapText8",
+          "opacity": 0,
+          "persistentUuid": "8c9d63ed-9dab-4f2e-949b-1f4a5df216aa",
+          "width": 0,
+          "x": 407,
+          "y": 372,
+          "zOrder": 106,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -19620,6 +19789,150 @@
             "align": "left",
             "verticalTextAlignment": "top"
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewBitmapText2",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Boy Points: ",
+            "opacity": 255,
+            "scale": 1.5,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "PixelOperator8-Bold.fnt",
+            "textureAtlasResourceName": "PixelOperator8-Bold.png",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewBitmapText3",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Girl Points: ",
+            "opacity": 255,
+            "scale": 1.5,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "PixelOperator8-Bold.fnt",
+            "textureAtlasResourceName": "PixelOperator8-Bold.png",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "height": 720,
+          "name": "overlay",
+          "texture": "NewTiledSprite",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1280,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewBitmapText4",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Girl Points +1",
+            "opacity": 255,
+            "scale": 2,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "PixelOperator8-Bold.fnt",
+            "textureAtlasResourceName": "PixelOperator8-Bold.png",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewBitmapText5",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Boy Points +1",
+            "opacity": 255,
+            "scale": 2,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "PixelOperator8-Bold.fnt",
+            "textureAtlasResourceName": "PixelOperator8-Bold.png",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewBitmapText6",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Please wait ...",
+            "opacity": 255,
+            "scale": 1.7,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "PixelOperator8-Bold.fnt",
+            "textureAtlasResourceName": "PixelOperator8-Bold.png",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewBitmapText7",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "BOY WINS!!!",
+            "opacity": 255,
+            "scale": 3,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "PixelOperator8-Bold.fnt",
+            "textureAtlasResourceName": "PixelOperator8-Bold.png",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewBitmapText8",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "GIRL WINS!!!",
+            "opacity": 255,
+            "scale": 3,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "PixelOperator8-Bold.fnt",
+            "textureAtlasResourceName": "PixelOperator8-Bold.png",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -19788,6 +20101,30 @@
                 "objectName": "link_boy"
               }
             ]
+          },
+          {
+            "objectName": "NewBitmapText2"
+          },
+          {
+            "objectName": "NewBitmapText3"
+          },
+          {
+            "objectName": "NewBitmapText4"
+          },
+          {
+            "objectName": "NewBitmapText5"
+          },
+          {
+            "objectName": "NewBitmapText6"
+          },
+          {
+            "objectName": "NewBitmapText7"
+          },
+          {
+            "objectName": "NewBitmapText8"
+          },
+          {
+            "objectName": "overlay"
           }
         ]
       },
@@ -19921,6 +20258,28 @@
                     "Ninja_Girl",
                     "Flippable",
                     "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NewBitmapText2",
+                    "Text",
+                    "=",
+                    "\"Boy Points: \" + BoyPoints"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NewBitmapText3",
+                    "Text",
+                    "=",
+                    "\"Girl Points: \" + GirlPoints"
                   ]
                 }
               ]
@@ -20078,15 +20437,237 @@
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Lobby Scene\"",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "GirlPoints",
+                        ">=",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "overlay",
+                        "Opacity",
+                        "=",
+                        "200"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "NewBitmapText8",
+                        "Opacity",
+                        "=",
+                        "255"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "Physics2",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "Physics2",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "NewBitmapText8",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Lobby Scene\"",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "GirlPoints",
+                        "<",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "Physics2",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "Physics2",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "overlay",
+                        "Opacity",
+                        "=",
+                        "200"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "NewBitmapText4",
+                        "Opacity",
+                        "=",
+                        "255"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "NewBitmapText6",
+                        "Opacity",
+                        "=",
+                        "255"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "NewBitmapText4",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "NewBitmapText6",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "overlay",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Game Scene\"",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -20106,15 +20687,237 @@
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Lobby Scene\"",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "BoyPoints",
+                        ">=",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "overlay",
+                        "Opacity",
+                        "=",
+                        "200"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "NewBitmapText7",
+                        "Opacity",
+                        "=",
+                        "255"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "Physics2",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "Physics2",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "NewBitmapText7",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Lobby Scene\"",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "BoyPoints",
+                        "<",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "Physics2",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "Physics2",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "overlay",
+                        "Opacity",
+                        "=",
+                        "200"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "NewBitmapText5",
+                        "Opacity",
+                        "=",
+                        "255"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "NewBitmapText6",
+                        "Opacity",
+                        "=",
+                        "255"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "NewBitmapText5",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "NewBitmapText6",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "overlay",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Game Scene\"",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -21046,6 +21849,38 @@
                     "-",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "GirlPoints",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NewBitmapText2",
+                    "Text",
+                    "=",
+                    "\"Boy Points: \" + BoyPoints"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NewBitmapText3",
+                    "Text",
+                    "=",
+                    "\"Girl Points: \" + GirlPoints"
+                  ]
                 }
               ]
             },
@@ -21082,6 +21917,38 @@
                     "-",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "GirlPoints",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NewBitmapText3",
+                    "Text",
+                    "=",
+                    "\"Girl Points: \" + GirlPoints"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NewBitmapText2",
+                    "Text",
+                    "=",
+                    "\"Boy Points: \" + BoyPoints"
+                  ]
                 }
               ]
             },
@@ -21099,6 +21966,12 @@
                     "0",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -21111,6 +21984,38 @@
                     "HealthPoint",
                     "-",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "GirlPoints",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NewBitmapText3",
+                    "Text",
+                    "=",
+                    "\"Girl Points: \" + GirlPoints"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NewBitmapText2",
+                    "Text",
+                    "=",
+                    "\"Boy Points: \" + BoyPoints"
                   ]
                 }
               ]
@@ -21148,6 +22053,38 @@
                     "-",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "BoyPoints",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NewBitmapText2",
+                    "Text",
+                    "=",
+                    "\"Boy Points: \" + BoyPoints"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NewBitmapText3",
+                    "Text",
+                    "=",
+                    "\"Girl Points: \" + GirlPoints"
+                  ]
                 }
               ]
             },
@@ -21184,6 +22121,38 @@
                     "-",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "BoyPoints",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NewBitmapText2",
+                    "Text",
+                    "=",
+                    "\"Boy Points: \" + BoyPoints"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NewBitmapText3",
+                    "Text",
+                    "=",
+                    "\"Girl Points: \" + GirlPoints"
+                  ]
                 }
               ]
             },
@@ -21201,6 +22170,12 @@
                     "0",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -21213,6 +22188,38 @@
                     "HealthPoint",
                     "-",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "BoyPoints",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NewBitmapText2",
+                    "Text",
+                    "=",
+                    "\"Boy Points: \" + BoyPoints"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NewBitmapText3",
+                    "Text",
+                    "=",
+                    "\"Girl Points: \" + GirlPoints"
                   ]
                 }
               ]
