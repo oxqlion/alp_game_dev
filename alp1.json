@@ -4019,7 +4019,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5468750000000152,
+        "zoomFactor": 0.36732575450589255,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -19601,6 +19601,25 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewBitmapText",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "This text use the default bitmap font.\nUse a custom Bitmap Font to create your own texts.",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "",
+            "textureAtlasResourceName": "",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -19716,6 +19735,9 @@
               },
               {
                 "objectName": "Menu1"
+              },
+              {
+                "objectName": "NewBitmapText"
               },
               {
                 "objectName": "Inventory_Slot_Empty2"
@@ -21395,7 +21417,7 @@
                     "Bullet",
                     "Ninja_Boy.X()",
                     "Ninja_Boy.Y()",
-                    "600",
+                    "500",
                     ""
                   ]
                 },
@@ -21411,7 +21433,7 @@
                     "Bullet",
                     "Ninja_Girl.X()",
                     "Ninja_Girl.Y()",
-                    "600",
+                    "500",
                     ""
                   ]
                 },
