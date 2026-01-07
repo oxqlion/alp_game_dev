@@ -2443,6 +2443,14 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/3b7eebc19998f973156d25533e4acd5eec7cbb0940011c9f0fa92962975e3f24_Tile 29.png",
           "name": "Tile 29.png"
         }
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -2475,7 +2483,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4335774304702418,
+        "zoomFactor": 0.6040838749988929,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -2671,9 +2679,25 @@
           "name": "PowerUp_Item",
           "persistentUuid": "d45cab6e-9781-4798-acb3-f8f006aa933d",
           "width": 0,
-          "x": 1089,
-          "y": 583,
+          "x": 711,
+          "y": 502,
           "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hit",
+          "persistentUuid": "a0cd5b94-ef8f-4b4e-926a-1a964980fe56",
+          "width": 0,
+          "x": -23,
+          "y": 374,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2882,6 +2906,16 @@
               "name": "powerUpType",
               "type": "string",
               "value": ""
+            },
+            {
+              "name": "HealthPoint",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "LinkActive",
+              "type": "boolean",
+              "value": false
             }
           ],
           "effects": [],
@@ -6019,6 +6053,16 @@
               "name": "powerUpType",
               "type": "string",
               "value": ""
+            },
+            {
+              "name": "HealthPoint",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "LinkActive",
+              "type": "boolean",
+              "value": false
             }
           ],
           "effects": [],
@@ -9637,6 +9681,67 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Hit",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 61,
+                            "y": 1
+                          },
+                          {
+                            "x": 61,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -9671,10 +9776,36 @@
           },
           {
             "objectName": "Tile_29"
+          },
+          {
+            "objectName": "Hit"
           }
         ]
       },
       "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Default Setups",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Movement + Default Setup"
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -9741,6 +9872,28 @@
                 "=",
                 "\"Run\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Ninja_Boy",
+                "HealthPoint",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Ninja_Girl",
+                "HealthPoint",
+                "=",
+                "1"
+              ]
             }
           ]
         },
@@ -9803,6 +9956,18 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Always Check for Condition "
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -9857,11 +10022,90 @@
           "conditions": [
             {
               "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Ninja_Boy",
+                "HealthPoint",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Lobby Scene\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Ninja_Girl",
+                "HealthPoint",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Lobby Scene\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Jump Boy"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "KeyFromTextJustPressed"
               },
               "parameters": [
                 "",
                 "\"a\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Ninja_Boy",
+                "LinkActive",
+                "False",
+                ""
               ]
             }
           ],
@@ -9946,7 +10190,18 @@
               },
               "parameters": [
                 "",
-                "\"l\""
+                "\"a\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Ninja_Girl",
+                "LinkActive",
+                "True",
+                ""
               ]
             }
           ],
@@ -10021,6 +10276,232 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Jump Girl"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"l\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Ninja_Girl",
+                "LinkActive",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::GravityScale"
+              },
+              "parameters": [
+                "Ninja_Girl",
+                "Physics2",
+                "=",
+                "Ninja_Girl.Physics2::GravityScale() * -1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics2::GravityScale"
+                  },
+                  "parameters": [
+                    "Ninja_Girl",
+                    "Physics2",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipY"
+                  },
+                  "parameters": [
+                    "Ninja_Girl",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics2::GravityScale"
+                  },
+                  "parameters": [
+                    "Ninja_Girl",
+                    "Physics2",
+                    "<",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipY"
+                  },
+                  "parameters": [
+                    "Ninja_Girl",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"l\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Ninja_Boy",
+                "LinkActive",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::GravityScale"
+              },
+              "parameters": [
+                "Ninja_Boy",
+                "Physics2",
+                "=",
+                "Ninja_Boy.Physics2::GravityScale() * -1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics2::GravityScale"
+                  },
+                  "parameters": [
+                    "Ninja_Boy",
+                    "Physics2",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipY"
+                  },
+                  "parameters": [
+                    "Ninja_Boy",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics2::GravityScale"
+                  },
+                  "parameters": [
+                    "Ninja_Boy",
+                    "Physics2",
+                    "<",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipY"
+                  },
+                  "parameters": [
+                    "Ninja_Boy",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Chunk/Room/Map Generation"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -10147,6 +10628,83 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Ninja_Boy",
+                "Hit",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Ninja_Boy",
+                "HealthPoint",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Ninja_Girl",
+                "Hit",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Ninja_Girl",
+                "HealthPoint",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -10180,7 +10738,7 @@
                     "PowerUp_Item",
                     "typeIndex",
                     "=",
-                    "1"
+                    "3"
                   ]
                 }
               ],
@@ -10249,7 +10807,7 @@
                         "PowerUp_Item",
                         "type",
                         "=",
-                        "\"speed\""
+                        "\"flicker\""
                       ]
                     },
                     {
@@ -10260,7 +10818,7 @@
                         "PowerUpText_NinjaBoy",
                         "Text",
                         "=",
-                        "\"speed\""
+                        "\"flicker\""
                       ]
                     }
                   ]
@@ -10329,7 +10887,7 @@
                         "PowerUp_Item",
                         "type",
                         "=",
-                        "\"flicker\""
+                        "\"link\""
                       ]
                     },
                     {
@@ -10340,47 +10898,7 @@
                         "PowerUpText_NinjaBoy",
                         "Text",
                         "=",
-                        "\"flicker\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "PowerUp_Item",
-                        "typeIndex",
-                        "=",
-                        "4"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringObjectVariable"
-                      },
-                      "parameters": [
-                        "PowerUp_Item",
-                        "type",
-                        "=",
-                        "\"gyaku\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "PowerUpText_NinjaBoy",
-                        "Text",
-                        "=",
-                        "\"gyaku\""
+                        "\"link\""
                       ]
                     }
                   ]
@@ -10397,7 +10915,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Set ower Up Item"
+              "comment": "Set Power Up Item"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -10823,7 +11341,7 @@
                         "Ninja_Boy",
                         "\"freeze\"",
                         ">=",
-                        "2"
+                        "1.5"
                       ]
                     }
                   ],
@@ -10904,7 +11422,7 @@
                         "Ninja_Boy",
                         "powerUpType",
                         "=",
-                        "\"speed\""
+                        "\"flicker\""
                       ]
                     },
                     {
@@ -10968,6 +11486,17 @@
                         "Ninja_Boy",
                         "\"248;231;28\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "Animation",
+                        "=",
+                        "\"Attack\""
+                      ]
                     }
                   ]
                 },
@@ -10994,6 +11523,17 @@
                       "parameters": [
                         "Ninja_Boy",
                         "\"255;255;255\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "Animation",
+                        "=",
+                        "\"Run\""
                       ]
                     }
                   ]
@@ -11032,7 +11572,7 @@
                         "Ninja_Girl",
                         "powerUpType",
                         "=",
-                        "\"speed\""
+                        "\"flicker\""
                       ]
                     },
                     {
@@ -11096,6 +11636,17 @@
                         "Ninja_Girl",
                         "\"248;231;28\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "Animation",
+                        "=",
+                        "\"Attack\""
+                      ]
                     }
                   ]
                 },
@@ -11123,11 +11674,607 @@
                         "Ninja_Girl",
                         "\"255;255;255\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "Animation",
+                        "=",
+                        "\"Run\""
+                      ]
                     }
                   ]
                 }
               ],
               "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Shield",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Ninja Boy"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "hasPowerUp",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "powerUpType",
+                        "=",
+                        "\"shield\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyFromTextJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"s\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "\"shield\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "HealthPoint",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "powerUpType",
+                        "=",
+                        "\"\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "hasPowerUp",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "\"155;155;155\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "\"shield\"",
+                        ">=",
+                        "4"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "\"255;255;255\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "HealthPoint",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Ninja Girl"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "hasPowerUp",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "powerUpType",
+                        "=",
+                        "\"shield\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyFromTextJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"s\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "\"shield\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "HealthPoint",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "powerUpType",
+                        "=",
+                        "\"\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "hasPowerUp",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "\"155;155;155\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "\"shield\"",
+                        ">=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "\"255;255;255\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "HealthPoint",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Link",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Ninja Boy"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "hasPowerUp",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "powerUpType",
+                        "=",
+                        "\"link\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyFromTextJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"s\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "\"link\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "powerUpType",
+                        "=",
+                        "\"\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "hasPowerUp",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "\"144;19;254\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "LinkActive",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "\"link\"",
+                        ">=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "\"255;255;255\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "LinkActive",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Ninja Girl"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "hasPowerUp",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "powerUpType",
+                        "=",
+                        "\"link\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyFromTextJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"s\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "\"link\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "powerUpType",
+                        "=",
+                        "\"\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Girl",
+                        "hasPowerUp",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "\"144;19;254\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "LinkActive",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "\"link\"",
+                        ">=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "\"255;255;255\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Ninja_Boy",
+                        "LinkActive",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ],
           "parameters": []
@@ -11344,8 +12491,8 @@
           "name": "BlackDecoratedButton",
           "persistentUuid": "f09c8750-1b1d-45a3-a6c4-ed60481dd27e",
           "width": 0,
-          "x": 541,
-          "y": 444,
+          "x": 512,
+          "y": 446,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -11378,8 +12525,8 @@
           "name": "Title",
           "persistentUuid": "7a2956e1-40ed-4755-ba93-f562c6ba518c",
           "width": 843,
-          "x": 228,
-          "y": 203,
+          "x": 191,
+          "y": 210,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -11568,7 +12715,7 @@
               "parameters": [
                 "",
                 "Japanese Theme Music for Video Games [JZxYuekC1jM].mp3",
-                "",
+                "yes",
                 "",
                 ""
               ]
